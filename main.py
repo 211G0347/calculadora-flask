@@ -23,5 +23,3 @@ def index():
             resultado = "Error: ingresa números válidos"
 
     return render_template("index.html", resultado=resultado)
-if __name__ == "__main__":
-    app.run(debug=True)
